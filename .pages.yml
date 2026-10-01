@@ -1,0 +1,68 @@
+# Pages CMS ayarları (https://app.pagescms.org). Site içeriği data/site.json dosyasında.
+media:
+  input: assets/uploads
+  output: /assets/uploads
+
+content:
+  - name: site
+    label: Site
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: name
+        label: Ad soyad
+        type: string
+        required: true
+      - name: title
+        label: Unvan
+        type: string
+      - name: intro
+        label: Kısa tanıtım
+        type: text
+      - name: profiles
+        label: Profiller
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Görünen ad
+            type: string
+            required: true
+          - name: icon
+            label: Simge
+            type: select
+            options:
+              values: [github, linkedin, email, web]
+          - name: url
+            label: Adres (e-posta için mailto:adres)
+            type: string
+            required: true
+      - name: projects
+        label: Projeler
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Proje adı
+            type: string
+            required: true
+          - name: summary
+            label: Açıklama
+            type: text
+          - name: logo
+            label: Logo
+            type: image
+          - name: image
+            label: Ekran görüntüsü
+            type: image
+          - name: tags
+            label: Teknolojiler
+            type: string
+            list: true
+          - name: repo
+            label: Kod adresi
+            type: string
+          - name: live
+            label: Canlı adres
+            type: string

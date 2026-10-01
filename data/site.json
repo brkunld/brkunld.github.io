@@ -1,0 +1,55 @@
+{
+  "name": "Burak Ünaldı",
+  "title": "Bilgisayar Mühendisliği öğrencisi",
+  "intro": "Donanımdan mobile kadar uçtan uca çalışan yazılımlar geliştiriyorum. Üzerinde çalıştığım projeler aşağıda.",
+  "profiles": [
+    {
+      "label": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/brkunld"
+    },
+    {
+      "label": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/burak-%C3%BCnald%C4%B1-459a71439/"
+    },
+    {
+      "label": "E-posta",
+      "icon": "email",
+      "url": "mailto:burakunaldi001@gmail.com"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Qwash",
+      "summary": "Self servis araç yıkama istasyonları için uçtan uca sistem. Müşteri QR okutup bakiyesiyle öder, ESP32 cihazı peronu çalıştırır, işletme her şeyi yönetim panelinden izler.",
+      "tags": [
+        "NestJS",
+        "Next.js",
+        "PostgreSQL",
+        "Prisma",
+        "MQTT",
+        "ESP32",
+        "Iyzico"
+      ],
+      "repo": "https://github.com/brkunld/Qwash",
+      "live": "",
+      "logo": "/assets/uploads/qwash-ikon.png",
+      "image": ""
+    },
+    {
+      "name": "Servisİz",
+      "summary": "Teknik servis yönetim uygulaması. Müşteri konumlu talep açar, şirket teknisyen atar, teknisyen görevi haritada takip eder.",
+      "tags": [
+        "Flutter",
+        "Firebase",
+        "Riverpod",
+        "Google Maps"
+      ],
+      "repo": "https://github.com/brkunld/servis-iz",
+      "live": "",
+      "logo": "/assets/uploads/servisiz-logo.png",
+      "image": ""
+    }
+  ]
+}
