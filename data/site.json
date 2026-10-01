@@ -23,6 +23,7 @@
     {
       "name": "Qwash",
       "summary": "Self servis araç yıkama istasyonları için uçtan uca sistem. Müşteri QR okutup bakiyesiyle öder, ESP32 cihazı peronu çalıştırır, işletme her şeyi yönetim panelinden izler.",
+      "logo": "/assets/uploads/qwash-ikon.png",
       "tags": [
         "NestJS",
         "Next.js",
@@ -33,23 +34,19 @@
         "Iyzico"
       ],
       "repo": "https://github.com/brkunld/Qwash",
-      "live": "",
-      "logo": "/assets/uploads/qwash-ikon.png",
-      "image": ""
+      "live": "https://qwash.burakunaldi.me/"
     },
     {
       "name": "Servisİz",
       "summary": "Teknik servis yönetim uygulaması. Müşteri konumlu talep açar, şirket teknisyen atar, teknisyen görevi haritada takip eder.",
+      "logo": "/assets/uploads/servisiz-logo.png",
       "tags": [
         "Flutter",
         "Firebase",
         "Riverpod",
         "Google Maps"
       ],
-      "repo": "https://github.com/brkunld/servis-iz",
-      "live": "",
-      "logo": "/assets/uploads/servisiz-logo.png",
-      "image": ""
+      "repo": "https://github.com/brkunld/servis-iz"
     }
   ]
 }
